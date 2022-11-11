@@ -1,0 +1,45 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto auto;
+    height: auto;
+}
+
+.welcome {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-image:url("https://th.bing.com/th/id/R.2da72b5948b9263ec5d55dbdd29c604f?rik=SG7Zw1OP2COIAQ&riu=http%3a%2f%2frvs.hr%2fmedia%2f4736%2fbt-sc22w-be.jpg%3fanchor%3dcenter%26mode%3dcrop%26width%3d480%26height%3d320%26rnd%3d132318806910000000&ehk=B%2f%2fMevnw9dcBevrNY0U5mwmB7tBSBLXM2GVNz0Qfq0o%3d&risl=&pid=ImgRaw&r=0");
+    background-size: cover;
+    color: white;
+    left: 0;
+    line-height: 50px;
+    margin-top: 0px;
+    padding-top: 12%;
+    width: 100%;
+    font-size: larger;
+}
+
+.welcome h3 {
+    padding-top: 15px;
+}
+
+.welcome p {
+    padding-top: 0px;
+}
+
+#mouse {
+    padding-top: 20px;
+    margin-top: 8%;
+    padding-bottom: 20px;
+}
+
+.about {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    color: black;
+}
