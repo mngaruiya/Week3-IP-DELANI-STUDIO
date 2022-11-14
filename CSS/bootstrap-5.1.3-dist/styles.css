@@ -9,8 +9,9 @@ body {
 .welcome {
     grid-row-start: 1;
     grid-row-end: 2;
-    background-image:u("https://th.bing.com/th/id/OIP.fx8NJ-AnA582qHyM3-1cjgEyDM?pid=ImgDet&rs=1");
+    background: url("https://www.publicdomainpictures.net/pictures/220000/velka/color-14942357757P7.jpg");
     background-size: cover;
+    background-position: 100%;
     color: white;
     left: 0;
     line-height: 50px;
@@ -19,6 +20,7 @@ body {
     width: 100%;
     font-size: larger;
 }
+
 
 .welcome h3 {
     padding-top: 15px;
@@ -39,7 +41,9 @@ body {
     grid-row-end: 3;
     background-color: white;
     padding-top: 5%;
-    padding-bottom: 5%;
+    padding-bottom: -200%;
     text-align: center;
     color: black;
+    font-family: 'Copse', serif;
+    font-size: medium;
 }
