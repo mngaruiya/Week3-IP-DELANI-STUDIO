@@ -12,7 +12,7 @@ body {
     background-image: url(https://github.com/TrekHub/Delani-Studio/blob/master/images/backgrounds/h_img.jpg?raw=true);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position:center;
     color: white;
     left: 0;
     line-height: 50px;
@@ -57,4 +57,14 @@ body {
         padding-top: 10%;
         padding-bottom: 7%;
         color: white;
+    }
+
+    .toggle {
+        grid-row-start: 4;
+        grid-row-end: 5;
+        padding-top: 3%;
+    }
+    
+    .text {
+        display: none;
     }
