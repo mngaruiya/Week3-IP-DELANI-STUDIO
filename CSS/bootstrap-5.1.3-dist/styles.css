@@ -10,7 +10,14 @@ body {
     grid-row-start: 1;
     grid-row-end: 2;
     background: url(https://github.com/TrekHub/Delani-Studio/blob/master/images/backgrounds/h_img.jpg?raw=true);
+    width: 50rem;
+    height: 50rem;
+    padding: 0rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     color: white;
     left: 0;
     line-height: 50px;
@@ -19,6 +26,8 @@ body {
     width: 100%;
     font-size: larger;
 }
+
+
 
 .welcome h3 {
     padding-top: 15px;
@@ -46,26 +55,25 @@ body {
 
 
 
-    .services {
-        grid-row-start: 3;
-        grid-row-end: 4;
-        background: url(https://github.com/TrekHub/Delani-Studio/blob/master/images/backgrounds/s_image.jpg?raw=true);
-        background-size: cover;
-        text-align: center;
-        padding-top: 10%;
-        padding-bottom: 7%;
-        color: white;
-    }
+.services {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background: url(https://github.com/TrekHub/Delani-Studio/blob/master/images/backgrounds/s_image.jpg?raw=true);
+    background-size: cover;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 7%;
+    color: white;
+}
 
-    .toggle {
-        grid-row-start: 4;
-        grid-row-end: 5;
-        padding-top: 3%;
-        background-color: white;
-    }
-    
-    .text {
-        display: none;
-    }
+.toggle {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    padding-top: 3%;
+    color: black;
 
-    
+}
+
+.text {
+    display: none;
+}

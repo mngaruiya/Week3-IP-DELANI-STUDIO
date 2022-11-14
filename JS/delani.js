@@ -25,3 +25,4 @@ $(document).ready(function() {
         $(this).hide();
         $('#product').toggle();
     });
+});
