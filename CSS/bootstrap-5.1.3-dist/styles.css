@@ -9,17 +9,15 @@ body {
 .welcome {
     grid-row-start: 1;
     grid-row-end: 2;
-    background-image: url(https://github.com/TrekHub/Delani-Studio/blob/master/images/backgrounds/h_img.jpg?raw=true);
-    background-repeat: no-repeat;
+    background: url(https://github.com/TrekHub/Delani-Studio/blob/master/images/backgrounds/h_img.jpg?raw=true);
     background-size: cover;
-    background-position:center;
     color: white;
     left: 0;
     line-height: 50px;
     margin-top: 0px;
     padding-top: 12%;
     width: 100%;
-    font-size: larger
+    font-size: larger;
 }
 
 .welcome h3 {
@@ -63,8 +61,11 @@ body {
         grid-row-start: 4;
         grid-row-end: 5;
         padding-top: 3%;
+        background-color: white;
     }
     
     .text {
         display: none;
     }
+
+    
