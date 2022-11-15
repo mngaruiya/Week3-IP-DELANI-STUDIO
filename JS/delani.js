@@ -89,7 +89,20 @@ $(document).ready(function () {
     }).mouseout(function () {
         $('#text').hide();
     });
+
+
+    $("form#my-form").submit(function(event) {
+        event.preventDefault();
+        var name = $("#name").val();
+        alert("Dear " + name + " we have received your message. Thank you for contacting us.We will get back to you.");
+        document.getElementById("my-form").reset();
+    })
+
+
+
+
 });
+
 
 
 
