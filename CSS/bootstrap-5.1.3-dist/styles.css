@@ -138,3 +138,19 @@ body {
     border: 2px solid white;
     
 }
+
+.contact {
+    background: url(https://github.com/Owiti-Charles/Delani-Studio/blob/master/images/backgrounds/c_image.jpg?raw=true);
+    background-size: cover;
+    padding-top: 3%;
+    color: white;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+#message {
+    background-color: transparent;
+    margin-bottom: 20px;
+}
