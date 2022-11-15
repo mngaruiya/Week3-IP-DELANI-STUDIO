@@ -1,88 +1,97 @@
-$(document).ready(function() {
+$(document).ready(function () {
 
     //what we do section toggle
-    $('#design').click(function() {
+    $('#design').click(function () {
         $(this).hide();
         $('.design').show();
     });
-    $('.design').click(function() {
+    $('.design').click(function () {
         $(this).hide();
         $('#design').show();
     });
-    $('#dvpt').click(function() {
+    $('#dvpt').click(function () {
         $(this).hide();
         $('.dvpt').toggle();
     });
-    $('.dvpt').click(function() {
+    $('.dvpt').click(function () {
         $(this).hide();
         $('#dvpt').toggle();
     });
-    $('#product').click(function() {
+    $('#product').click(function () {
         $(this).hide();
         $('.product').toggle();
     });
-    $('.product').click(function() {
+    $('.product').click(function () {
         $(this).hide();
         $('#product').toggle();
     });
 
-     //portfolio overlays
-     $(".one").mouseover(function() {
-        $("#one").show();
-    });
-    $(".one").mouseout(function() {
-        $("#one").hide();
-    });
 
-    $(".two").mouseover(function() {
-        $("#two").show();
+    $(".one").hover(function () {
+        $("#overlay1").show();
     });
-    $(".two").mouseout(function() {
-        $("#two").hide();
-    });
-    $(".three").mouseover(function() {
-        $("#three").show();
-    });
-    $(".three").mouseout(function() {
-        $("#three").hide();
-    });
-    $(".four").mouseover(function() {
-        $("#four").show();
-    });
-    $(".four").mouseout(function() {
-        $("#four").hide();
-    });
-    $(".five").mouseover(function() {
-        $("#five").show();
-    });
-    $(".five").mouseout(function() {
-        $("#five").hide();
-    });
-    $(".six").mouseover(function() {
-        $("#six").show();
-    });
-    $(".six").mouseout(function() {
-        $("#six").hide();
-    });
-    $(".seven").mouseover(function() {
-        $("#seven").show();
-    });
-    $(".seven").mouseout(function() {
-        $("#seven").hide();
-    });
-    $(".eight").mouseover(function() {
-        $("#eight").show();
-    });
-    $(".eight").mouseout(function() {
-        $("#eight").hide();
-    });
+    $(".one").mouseleave(function () {
+        $("#overlay1").hide();
+    })
+    
+    $(".two").hover(function () {
+        $("#overlay2").show();
+    })
+    $(".two").mouseleave(function () {
+        $("#overlay2").hide();
+    })
+   
+    $(".three").hover(function () {
+        $("#overlay3").show();
+    })
+    $(".three").mouseleave(function () {
+        $("#overlay3").hide();
+    })
 
+    $(".four").hover(function () {
+        $("#overlay4").show();
+    })
+    $(".four").mouseleave(function () {
+        $("#overlay4").hide();
+    })
+ 
+    $(".five").hover(function () {
+        $("#overlay5").show();
+    })
+    $(".five").mouseleave(function () {
+        $("#overlay5").hide();
+    })
 
+    $(".six").hover(function () {
+        $("#overlay6").show();
+    })
+    $(".six").mouseleave(function () {
+        $("#overlay6").hide();
+    })
 
+    $(".seven").hover(function () {
+        $("#overlay7").show();
+    })
+    $(".seven").mouseleave(function () {
+        $("#overlay7").hide();
+    })
 
-
-
-
-
-
+    $(".eight").hover(function () {
+        $("#overlay8").show();
+    })
+    $(".eight").mouseleave(function () {
+        $("#overlay8").hide();
+    })
 });
+$(document).ready(function () {
+    $('.overlay').mouseover(function () {
+        $('#text').show();
+    }).mouseout(function () {
+        $('#text').hide();
+    });
+});
+
+
+
+
+
