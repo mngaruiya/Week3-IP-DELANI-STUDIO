@@ -10,14 +10,14 @@ This project is a web application for Delani studio that shows details about the
     5.jQuery
 
 # BDD
-   1.Recreate website layout
-   2.Toggle 'what we do section'
+     1.Recreate website layout
+     2.Toggle 'what we do section'
      .Input: click on image
      .Expected output: toggle between image and description
-  3.Hover portfolio section
+    3.Hover portfolio section
     .Input: hover over image
     .Expected output: Name of project displays on white background
-  4.Send message to team
+    4.Send message to team
     .Input: name. email, message
     .Expected output: confirmation message
 
