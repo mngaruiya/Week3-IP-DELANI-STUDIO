@@ -49,13 +49,13 @@ This project is a web application for Delani studio that shows details about the
 
 
 # Project setup & collaboration
-Clone this repo
+Clone this repo https://github.com/mngaruiya/Week3-IP-DELANI-STUDIO.git
 
 ## Contact
-git clone 
+git clone https://github.com/mngaruiya/Week3-IP-DELANI-STUDIO.git
 Martha Ngaruiya -rimash1563@gmail.com
 
-## Live Link: 
+## Live Link: https://mngaruiya.github.io/Week3-IP-DELANI-STUDIO/
 
 # Copyright & License
 Distributed under the MIT License. See LICENSE for more information on license and copyright.
