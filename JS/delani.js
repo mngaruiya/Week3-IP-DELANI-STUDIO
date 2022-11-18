@@ -33,14 +33,14 @@ $(document).ready(function () {
     $(".one").mouseleave(function () {
         $("#overlay1").hide();
     })
-    
+
     $(".two").hover(function () {
         $("#overlay2").show();
     })
     $(".two").mouseleave(function () {
         $("#overlay2").hide();
     })
-   
+
     $(".three").hover(function () {
         $("#overlay3").show();
     })
@@ -54,7 +54,7 @@ $(document).ready(function () {
     $(".four").mouseleave(function () {
         $("#overlay4").hide();
     })
- 
+
     $(".five").hover(function () {
         $("#overlay5").show();
     })
@@ -91,7 +91,7 @@ $(document).ready(function () {
     });
 
 
-    $("form#my-form").submit(function(event) {
+    $("form#my-form").submit(function (event) {
         event.preventDefault();
         var name = $("#name").val();
         alert("Dear " + name + " we have received your message. Thank you for contacting us.We will get back to you.");

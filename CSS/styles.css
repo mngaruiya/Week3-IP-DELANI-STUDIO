@@ -99,8 +99,15 @@ body {
     padding: 20px, 20px, 20px, 20px;
 }
 
-#overlay1 ,#overlay2 ,#overlay3 ,#overlay4 ,#overlay5 ,#overlay6 ,#overlay7,#overlay8 {
-    box-sizing:border-box;
+#overlay1,
+#overlay2,
+#overlay3,
+#overlay4,
+#overlay5,
+#overlay6,
+#overlay7,
+#overlay8 {
+    box-sizing: border-box;
     border: 2px solid white;
     width: 80%;
     height: 80%;
@@ -145,8 +152,9 @@ body {
     background: url(https://github.com/Owiti-Charles/Delani-Studio/blob/master/images/backgrounds/c_image.jpg?raw=true);
     background-size: cover;
     padding-top: 3%;
-    color:black
+    color: black
 }
+
 input[type="text"],
 input[type="email"],
 input[type="submit"],
@@ -155,6 +163,7 @@ input[type="submit"],
     background-color: transparent;
     margin-bottom: 20px;
 }
+
 #name {
     color: white;
 }
@@ -166,5 +175,5 @@ input[type="submit"],
 .foot-text {
     color: black;
     text-align: center;
-    font-size:xx-large
+    font-size: xx-large
 }
