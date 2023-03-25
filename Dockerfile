@@ -1,6 +1,2 @@
-FROM node:16-alpine
-
-RUN mkdir /app
-
-WORKDIR /app
-COPY . /app/
+FROM nginx:stable-alpine
+COPY . /usr/share/nginx/html
